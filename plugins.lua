@@ -17,7 +17,8 @@ local plugins = {
         "html-lsp",
         "css-lsp",
         "emmet-ls",
-      }
+        "typescript-language-server",
+      },
     }
   },
   {
