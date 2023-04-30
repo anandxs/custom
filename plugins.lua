@@ -19,6 +19,9 @@ local plugins = {
         "emmet-ls",
         "typescript-language-server",
       },
+      ui = {
+        border = "rounded"
+      },
     }
   },
   {
