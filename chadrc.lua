@@ -3,16 +3,19 @@ local M = {}
 M.ui = {
   theme = 'melange',
   theme_toggle = {"melange", "gruvbox"},
-  transparency = false,
+  transparency = true,
   statusline = {
     theme = "default",
     separator_style = "block"
   },
-  tabufline =  {
-    enabled = false
-  }
+  -- tabufline =  {
+  --   enabled = false
+  -- },
+  telescope = { style = "bordered" },
 }
+
 M.plugins = "custom/plugins"
+
 -- see https://github.com/NvChad/NvChad/issues/1865
 M.lazy_nvim = {
   performance = {
