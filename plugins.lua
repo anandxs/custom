@@ -29,7 +29,10 @@ local plugins = {
       disable_netrw = false,
       hijack_netrw = false,
     }
-  }
+  },
+  -- {
+  --   "ThePrimeagen/harpoon"
+  -- }
 }
 
 return plugins

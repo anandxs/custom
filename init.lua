@@ -6,3 +6,6 @@ local opts = { noremap = true, silent = true }
 local keymap = vim.api.nvim_set_keymap
 keymap("i", "jk", "<ESC>", opts)
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+
+-- transparent background
+vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
