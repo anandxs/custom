@@ -18,6 +18,7 @@ local plugins = {
         "css-lsp",
         "emmet-ls",
         "typescript-language-server",
+        "clangd",
       },
       ui = {
         border = "rounded"
